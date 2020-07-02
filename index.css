@@ -5,79 +5,97 @@ html{
 body {
     font-family: Arial;
     color: #4A566E;
+    margin: auto;
 }
 
+/* APRESENTAÇÃO */ 
 .box1 {
+    padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
+/* HABILIDADES */
 .box2 {
     background-color: #741BFF;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    height: 800px;
 }
+
+.habilidade {
+    background: #FFF;
+    height: 500px;
+    border-radius: 30px;
+    width: 300px;
+    margin: 0px 50px 0px 50px ;
+}
+
 
 .box3 {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box3 a {
+    text-decoration: none;
 }
 
 h1 {
-    font-size: 48px;
     text-align: center;
+    font-size: 48px;
 }
 
-h2 {
-    font-size: 48px;
+h3 {
+    font-size: 30px;
     text-align: center;
-    color: #FFF;
 }
 
 p {
-    line-height: 1.7;
     text-align: center;
-    display: flex;
-    margin: auto;
+    line-height: 1.7;
+}
+
+img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.whatsapp {
+    margin: 0px 25px 0px 25px;
+}
+
+.linkedin {
+    margin: 0px 25px 0px 25px;
 }
 
 footer {
     text-align: center;
+    margin-bottom: 25px;
 }
 
-img {
-    width: 200px;
-    margin-top: 40px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* MENU */
-#menu {
-    float: right;
-    margin-top: 30px;
-    text-align: center;
-}
-
-#menu ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-#menu ul li { 
-    display: inline;
-    margin: 5px;
-}
-
-#menu ul li a {
-    padding: 2px 10px;
-    display: inline-block;
+footer a {
     text-decoration: none;
     color: #4A566E;
 }
 
-#menu ul li a:hover {
-    
+/* MENU */
+.menu {
+    text-align: right;
+    padding-right: 40px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: #4A566E;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    color: #741BFF;
+}
