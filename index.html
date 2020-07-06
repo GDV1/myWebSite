@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá, me chamo Gabriel!</title>
+    <title>Seja bem-vindo(a) ao meu site</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -16,14 +16,8 @@
         </div>
 
         <h1>Gabriel Dias</h1>
-        <p>
-            <!-- Eu sou um desenvolvedor FullStack começando minha carreira e apaixonado <br>
-            por aprender coisas novas. Além disso, sou uma pessoa fácil de lidar e me <br>
-            encaixo bem em qualquer time. Estou buscando uma boa empresa para <br>
-            trabalhar e gerar um impacto positivo no mundo através da tecnologia :) -->
 
-
-            Sou um desenvolvedor FullStack começando minha carreira e apaixonado <br>
+        <p> Sou um desenvolvedor FullStack começando minha carreira e apaixonado <br>
             por aprender coisas novas. Esse site tem o objetivo mostrar um pouco do que <br>
             eu já fiz, o que sei fazer, as minhas habilidades e no que estou me <br>
             qualificando no momento. Estou buscando uma boa empresa para trabalhar ou <br>
@@ -31,38 +25,57 @@
             Entre em contato comigo pelo WhatsApp.
         </p>
 
-        <img src="./assets/foto.jpg">
+        <img class="foto" src="./assets/foto.jpg">
     </div>
 
     <div class="box2" id="skills">
+        <h2 class="tituloHabilidades">Minhas habilidades</h2>
+        
+        <div class="container">
 
-        <div class="habilidade"></div>
-        <div class="habilidade"></div>
+            <div class="habilidade">
+                <img src="./assets/frontend.png" alt="Frontend">
+                <h3>Front-end</h3>
+                <p>Eu programo sites do zero e levo ideias do papel para o navegador, me preocupando com a entrega final.</p>
+                <h4>Linguagens:</h4>
+                <p>HTML, CSS e Javascript</p>
+                <h4>Ferramentas:</h4>
+                <p>React</p>
+                <p>Redux</p>
+                <p>SASS</p>
+            </div>
+
+            
+            <div class="habilidade">
+                <img src="./assets/backend.png" alt="Backend">
+                <h3>Back-end</h3>
+                <p>Desenvolvo sistemas para dar suporte aos produtos web, crio APIs e tenho boa experiência com banco de dados.</p>
+                <h4>Linguagens:</h4>
+                <p>Node.js, REST, SQL</p>
+                <h4>Ferramentas:</h4>
+                <p>Express</p>
+                <p>MySQL</p>
+                <p>Postgres</p>
+            </div>
+        </div>
     </div>
 
-    <h3>Manda uma mensagem aí :)</h3>
     <div class="box3" id="contact">
-        
-        <button class="whatsapp">
-            <a target="_blank" href="https://wa.me/5562994423402">Mandar um WhatsApp</a>
-        </button>
-        <button class="linkedin">
-            <a target="_blank" href="https://www.linkedin.com/in/gabriel-dias-414403141/">Conectar pelo LinkedIn</a>
-        </button>
-
-        
-        <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="gabriel-dias-414403141">
-            <a class="LI-simple-link" href='https://br.linkedin.com/in/gabriel-dias-414403141?trk=profile-badge'>Gabriel Dias</a>
-        </div> -->
-
+        <h2 class="tituloContato">Me manda uma mensagem aí :)</h2>
+        <a target="_blank" href="https://wa.me/5562994423402" class="linkWhatsApp" >Mandar um WhatsApp</a>
+        <p class="outrosContatos">Ou, então, fale comigo pelo 
+            <a target="_blank" href="https://www.linkedin.com/in/gabriel-dias-414403141/">
+                LinkedIn
+            </a> 
+            ou 
+            <a target="_blank" href="https://www.facebook.com/gabriel.dias.31105/">
+                Facebook!
+            </a>
+        </p>
 
     </div>
-
-    <!-- Add botão voltar para cima -->
     <footer>
         <span>Desenvolvido com &hearts; por <a target="_blank" href="https://github.com/GDV1">Gabriel Dias</a></span>
     </footer>
-
-    <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
 </body>
 </html>

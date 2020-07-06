@@ -1,6 +1,5 @@
-html{
-    scroll-behavior: smooth;
-}
+/* DOCUMENT */ 
+html{ scroll-behavior: smooth; }
 
 body {
     font-family: Arial;
@@ -8,82 +7,13 @@ body {
     margin: auto;
 }
 
-/* APRESENTAÇÃO */ 
-.box1 {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    text-align: center;
-}
+h1, h3, h4, p { text-align: center; }
 
-/* HABILIDADES */
-.box2 {
-    background-color: #741BFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    height: 800px;
-}
+h1 { font-size: 48px; }
 
-.habilidade {
-    background: #FFF;
-    height: 500px;
-    border-radius: 30px;
-    width: 300px;
-    margin: 0px 50px 0px 50px ;
-}
+p { line-height: 1.7; }
 
-
-.box3 {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.box3 a {
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    font-size: 48px;
-}
-
-h3 {
-    font-size: 30px;
-    text-align: center;
-}
-
-p {
-    text-align: center;
-    line-height: 1.7;
-}
-
-img {
-    height: 150px;
-    border-radius: 50%;
-}
-
-.whatsapp {
-    margin: 0px 25px 0px 25px;
-}
-
-.linkedin {
-    margin: 0px 25px 0px 25px;
-}
-
-footer {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #4A566E;
-}
-
+/* TOP */
 /* MENU */
 .menu {
     text-align: right;
@@ -96,6 +26,98 @@ footer a {
     margin-left: 20px;
 }
 
-.menu a:hover {
+.menu a:hover { color: #741BFF; }
+
+/* APRESENTAÇÃO */ 
+.box1 {
+    padding: 30px 0px 50px 0px;
+    text-align: center;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+}
+
+.foto {
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* HABILIDADES */
+.box2 {
+    background-color: #741BFF;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloHabilidades {
+    color: #FFF;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.habilidade {
+    background: #FFF;
+    border-radius: 30px;
+    width: 300px;
+    margin: 20px 50px 0px 50px ;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+}
+
+/* CONTACT */
+.box3 {
+    height: 300px;
+    text-align: center;
+}
+
+.tituloContato {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.linkWhatsApp {
+    color: #FFF;
+    background: green;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.linkWhatsApp:hover {
+    background: rgb(13, 202, 54);
+}
+
+.outrosContatos { padding-top: 30px; }
+
+.outrosContatos a {
+    text-decoration: none;
+    color: #4A566E;
+}
+
+.outrosContatos a:hover { color: #741BFF; }
+
+@media (max-width: 600px) {
+    .menu { display: none; }
+
+    .habilidade { margin: 15px 10px 30px 10px; }
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4A566E;
+}
+
+footer a:hover {
     color: #741BFF;
 }
