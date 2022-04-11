@@ -70,7 +70,7 @@ p { line-height: 1.7; }
 
 /* CONTACT */
 .box3 {
-    height: 300px;
+    height: 250px;
     text-align: center;
 }
 
@@ -79,33 +79,23 @@ p { line-height: 1.7; }
     padding-bottom: 50px;
 }
 
-.linkWhatsApp {
+.linLinkedin {
     color: #FFF;
-    background: green;
+    background: #0A66C2;
     padding: 20px;
     border-radius: 10px;
     text-decoration: none;
 }
 
-.linkWhatsApp:hover {
-    background: rgb(13, 202, 54);
+.linLinkedin:hover {
+    background: #0782fc;
 }
 
-.outrosContatos { padding-top: 30px; }
-
-.outrosContatos a {
-    text-decoration: none;
-    color: #4A566E;
-}
-
-.outrosContatos a:hover { color: #741BFF; }
 
 @media (max-width: 600px) {
     .menu { display: none; }
-
     .habilidade { margin: 15px 10px 30px 10px; }
 }
-
 
 footer {
     text-align: center;
